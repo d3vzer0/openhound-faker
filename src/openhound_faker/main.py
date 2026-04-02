@@ -4,7 +4,7 @@ from .lookup import RandomLookup
 from dlt.extract.source import DltSource
 
 
-app = OpenHound("random", source_kind="Rand", help="OpenGraph collector generating random resources")
+app = OpenHound("faker", source_kind="Rand", help="OpenGraph collector generating random resources")
 
 
 @app.collect()
