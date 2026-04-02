@@ -1,0 +1,26 @@
+name: random
+version: 0.3.4
+description: "Random resource generator for OpenGraph"
+authors:
+  - name: Joey Dreijer
+    email: jdreijer@specterops.io
+
+type: local
+license: MIT
+homepage: https://github.com/d3vzer0/openhound-faker
+references:
+  - name: OpenHound
+    url: https://github.com/specterops/openhound
+
+credentials:
+  - name: example
+    description: Example credential, not actually used.
+    required: false
+
+parameters:
+  - name: size
+    description: The amount of assets to generate
+    required: false
+    default: 10000
+
+tags: ["faker", "source", "opengraph"]

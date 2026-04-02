@@ -1,0 +1,1 @@
+COMPUTER = "RAND_Computer"

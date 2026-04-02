@@ -1,10 +1,33 @@
+# Custom
+# Ignore common secret extensions
+*.pem
+*.key
+
+#Openhound/DuckDB specific
+openhound.log*
+*.duckdb
+ui_catalog.db
+**/__marimo__/cache/
+
+site/
+collectors/
+
+output
+graph
+logs
+dbt_packages
+.vscode
+.idea
+
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[codz]
 *$py.class
-
+.dlt
 # C extensions
 *.so
+
 
 # Distribution / packaging
 .Python
@@ -182,9 +205,9 @@ cython_debug/
 .abstra/
 
 # Visual Studio Code
-#  Visual Studio Code specific template is maintained in a separate VisualStudioCode.gitignore 
+#  Visual Studio Code specific template is maintained in a separate VisualStudioCode.gitignore
 #  that can be found at https://github.com/github/gitignore/blob/main/Global/VisualStudioCode.gitignore
-#  and can be added to the global gitignore or merged into this file. However, if you prefer, 
+#  and can be added to the global gitignore or merged into this file. However, if you prefer,
 #  you could uncomment the following to ignore the entire vscode folder
 # .vscode/
 

@@ -1,0 +1,1 @@
+EXAMPLE = "RAND_ExampleReference"
