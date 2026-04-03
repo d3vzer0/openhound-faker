@@ -6,7 +6,7 @@ import duckdb
 
 class RandomLookup(LookupManager):
 
-    def __init__(self, client: DuckDBPyConnection, schema: str = "random"):
+    def __init__(self, client: DuckDBPyConnection, schema: str = "faker"):
         super().__init__(client, schema)
         self.schema = schema
         self.client = client
